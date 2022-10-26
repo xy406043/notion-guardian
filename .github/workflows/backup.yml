@@ -5,7 +5,6 @@ on:
     branches:
       - main
   schedule:
-  #  代表每周一 1点 执行更新曹休
     -   cron: "0 1 * * 1"
 
 jobs:
